@@ -82,7 +82,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => 'https://github.com/yuan7/YuanTestView.git', :tag => "v#{s.version}"}
+  s.source       = { :git => 'https://github.com/yuan7/YuanTestView.git',:commit => "ac806d9", :tag => "v#{s.version}"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
