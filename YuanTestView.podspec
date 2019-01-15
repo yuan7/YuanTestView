@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
   s.requires_arc = true
-  #s.source_files  = 'TextView/**/*.{h,m}'
+  s.source_files  = 'TextView/*.{h,m}'
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
