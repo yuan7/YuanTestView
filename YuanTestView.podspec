@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "YuanTestView"
-  s.version      = "0.0.1"
+  s.name         = 'YuanTestView'
+  s.version      = '0.0.1'
   s.ios.deployment_target = '8.0'
-  s.summary      = "简介"
+  s.summary      = '简介'
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
                    简介简介简介
                    DESC
 
-  s.homepage     = "https://github.com/yuan7/YuanTestView"
+  s.homepage     = 'https://github.com/yuan7/YuanTestView'
   s.social_media_url = 'https://www.baidu.com'
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT"
+  s.license      = 'MIT'
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -55,9 +55,9 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "yuanying" => "2539234672@qq.com" }
+  s.author             = 'yuanying'
   # Or just: s.author    = ""
-  # s.authors            = { "" => "" }
+  # s.authors            = { 'yuanying' => '2539234672@qq.com'}
   # s.social_media_url   = "http://twitter.com/"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -82,7 +82,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/yuan7/YuanTestView.git", :tag => "v#{s.version}"}
+  s.source       = { :git => 'https://github.com/yuan7/YuanTestView.git', :tag => "v#{s.version}"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
